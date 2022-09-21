@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 #set -u
-#set -o pipeline
+#set -o pipefail 
 
 function unit_tests() {
 	echo "running unit tests"
